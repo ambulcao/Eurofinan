@@ -7,7 +7,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>EUROFIN</NavLogo>
+                    <NavLogo to='/'>€urofin</NavLogo>
                     <MobileIcon>
                         <FaBars />
                     </MobileIcon>
