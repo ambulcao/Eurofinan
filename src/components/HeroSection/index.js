@@ -21,7 +21,13 @@ const HeroSection = () => {
                     Inscreva-se para uma nova conta hoje e receba €250 de crédito em seu próximo pagamento.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="inscrever" onMouseEnter={onHover} onMouseLeave={onHover}>Inicie {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                    <Button to="inscrever" 
+                    onMouseEnter={onHover} 
+                    onMouseLeave={onHover}
+                    primary="true"
+                    dark="true"
+                    >
+                        Inicie {hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </HeroBtnWrapper>    
             </HeroContent>
         </HeroContainer>
